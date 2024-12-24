@@ -24,3 +24,23 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 
 1. **Non-real-time Object Detection in a sample image**
    - Sample input image
+
+     - To test with your own image, modify the code in line as shown below:\
+       `bk` to `kb`
+
+   ![](/sample_input_image.png)
+
+   - Sample output image
+
+   ![](/sample_output_image.png)
+
+
+2. **Non-real-time Object Detection in a sample video**
+   - Sample input video
+  
+     - To test with your own video, modify the code in line as shown below:\
+       `bk` to `kb`
+       
+
+
+     
