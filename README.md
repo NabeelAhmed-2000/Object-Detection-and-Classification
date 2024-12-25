@@ -17,15 +17,17 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
      - This is the pre-trained frozen model for the MobileNet-SSD v3 model, defining the weights, which represent learned parameters of the model.
    - [labels.txt](/labels.txt)
      - This is the text file where all the labels belonging to 80 different classes reside.
-   - source.ipynb
-     - This file contains the source code for the execution of this whole project.
+   - [source_code_image.ipynb](/source_code_image.ipynb)
+     - This file contains the source code for object detection in an image.
+   - [source_code_video.ipynb](/source_code_video.ipynb)
+     - This file contains the source code for object detection in a video.
 
 ## Project Showcase
 
 1. **Non-real-time Object Detection in a sample image**
    - Sample input image
 
-     - To test with your own image, modify the code in line as shown below:\
+     - To test with your own image, modify the code in line of file [source_code_image.ipynb](/source_code_image.ipynb) as shown below:\
        `bk` to `kb`
 
    ![](Extras/sample_input_image.png)
