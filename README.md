@@ -11,9 +11,9 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
    - [matplotlib v3.9.3](https://matplotlib.org/stable/users/release_notes#version-3-9)
 
 2. **Description of files used**
-   - ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt
+   - [ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt](/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt)
      - This is the configuration file for the MobileNet-SSD v3 model, defining its architecture and settings. 
-   - frozen_inference_graph.pb
+   - [frozen_inference_graph.pb](frozen_inference_graph.pb)
      - This is the pre-trained frozen model for the MobileNet-SSD v3 model, defining the weights, which represent learned parameters of the model.
    - [labels.txt](/labels.txt)
      - This is the text file where all the labels belonging to 80 different classes reside.
