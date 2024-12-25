@@ -51,6 +51,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
    - Sample output video
 
      - Due to limited resources of the machine, object detection happens at a slightly lower frame rate in the output video.
+     - The video runs in full-screen by default. Press `f` to toggle between full-screen and windowed modes. Press `q` to stop object detection and close the video.
      <br/>
      
      
