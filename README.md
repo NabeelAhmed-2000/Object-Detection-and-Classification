@@ -27,8 +27,8 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 1. **Non-real-time Object Detection in a sample image**
    - Sample input image
 
-     - To test with your own image, modify the code in line of file [source_code_image.ipynb](/source_code_image.ipynb) as shown below:\
-       `bk` to `kb`
+     - To test with your own image, modify the code in 'In [7]' of file [source_code_image.ipynb](/source_code_image.ipynb) as shown below:\
+       `img = cv2.imread('original_sample_image.jpg')` to `img = cv2.imread('your_image_name')`
 
    ![](Extras/sample_input_image.png)
 
@@ -40,7 +40,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 2. **Non-real-time Object Detection in a sample video**
    - Sample input video
   
-     - To test with your own video, modify the code in line as shown below:\
+     - To test with your own video, modify the code in 'In []' of file [source_code_video.ipynb](/source_code_video.ipynb) as shown below:\
        `bk` to `kb`
 
      \
