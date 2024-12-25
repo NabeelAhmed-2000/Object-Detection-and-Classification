@@ -56,8 +56,11 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 3. **Real-time Object Detection**
 
    - For Real-time Object Detection through your webcam, or any other imaging device, modify the code in line of as shown below:\
-     `bk` to `kb`
-       
+     `bk` to `kb`       
+<br/>
+
+## Credits
+[original_sample_image.jpg](Extras/original_sample_image.jpg) and [original_sample_video.mp4](Extras/original_sample_video.mp4) used in this project are copyright-free. Image is downloaded from [pixabay.com](https://pixabay.com/photos/boy-bicycle-stunt-child-riding-9201158/) and video from [pixabay.com](https://pixabay.com/videos/new-york-nyc-city-urban-manhattan-26115/). 
 
 
      
