@@ -28,11 +28,11 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
      - To test with your own image, modify the code in line as shown below:\
        `bk` to `kb`
 
-   ![](/sample_input_image.png)
+   ![](Extras/sample_input_image.png)
 
    - Sample output image
 
-   ![](/sample_output_image.png)
+   ![](Extras/sample_output_image.png)
 
 
 2. **Non-real-time Object Detection in a sample video**
