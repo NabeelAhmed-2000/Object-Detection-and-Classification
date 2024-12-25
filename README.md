@@ -40,8 +40,8 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 2. **Non-real-time Object Detection in a sample video**
    - Sample input video
   
-     - To test with your own video, modify the code in 'In []' of file [source_code_video.ipynb](/source_code_video.ipynb) as shown below:\
-       `bk` to `kb`
+     - To test with your own video, modify the code in the very first line of 'In [10]' of file [source_code_video.ipynb](/source_code_video.ipynb) as shown below:\
+       `cap = cv2.VideoCapture("original_sample_video.mp4")` to `cap = cv2.VideoCapture("your_video_name")`
 
      \
      [![Watch the video](Extras/input_video_thumbnail.png)](https://drive.google.com/file/d/1WLveG-M_Zh899NEf1BpEa4OQJSRswRKR/view?usp=sharing)
@@ -49,16 +49,22 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
      <br/>
        
    - Sample output video
-     \
-     \
-     \
+
+     - Due to limited resources of the machine, object detection happens at a slightly lower frame rate in the output video.
+     <br/>
+     
+     
      [![Watch the video](Extras/output_video_thumbnail.png)](https://drive.google.com/file/d/1yBSlWr563a3r7WZQTsnaKjolUTtJ4pxe/view?usp=sharing)
 <br/>
 
 3. **Real-time Object Detection**
 
-   - For Real-time Object Detection through your webcam, or any other imaging device, modify the code in line of as shown below:\
-     `bk` to `kb`       
+   - For Real-time Object Detection through the webcam or any other imaging device, modify the code in the very first line of 'In [10]' of file 
+     [source_code_video.ipynb](/source_code_video.ipynb) as shown below:
+     
+     `cap = cv2.VideoCapture("original_sample_video.mp4")` to `cap = cv2.VideoCapture(0)`
+
+     if `cap = cv2.VideoCapture(0)` does not work, or if there are multiple cameras, try changing the index `(0)` to 1, 2, etc. based on the camera to be used.
 <br/>
 
 ## Credits
