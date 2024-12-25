@@ -43,15 +43,20 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 
      \
      [![Watch the video](Extras/input_video_thumbnail.png)](https://drive.google.com/file/d/1WLveG-M_Zh899NEf1BpEa4OQJSRswRKR/view?usp=sharing)
-     
+     <br/>
+     <br/>
        
    - Sample output video
      \
      \
      \
      [![Watch the video](Extras/output_video_thumbnail.png)](https://drive.google.com/file/d/1PSoIMB1r9tjOGKYz8SfryZRhIE32SPsS/view?usp=sharing)
+<br/>
 
-     
+3. **Real-time Object Detection**
+
+   - For Real-time Object Detection through your webcam, or any other imaging device, modify the code in line of as shown below:\
+     `bk` to `kb`
        
 
 
