@@ -29,7 +29,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 
      - To test with your own image, modify the code in 'In [7]' of file [source_code_image.ipynb](/source_code_image.ipynb) as shown below:\
        `img = cv2.imread('original_sample_image.jpg')` to `img = cv2.imread('your_image_name')`
-
+       [Line 88](/source_code_image.ipynb#L88)
    ![](Extras/sample_input_image.png)
 
    - Sample output image
