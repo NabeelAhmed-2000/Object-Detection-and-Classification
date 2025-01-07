@@ -55,7 +55,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
      <br/>
      
      
-     [![Watch the video](Extras/output_video_thumbnail.png)](https://drive.google.com/file/d/1yBSlWr563a3r7WZQTsnaKjolUTtJ4pxe/view?usp=sharing)
+     [![Watch the video](Extras/output_video_thumbnail.png)](https://drive.google.com/file/d/1u0jxzNN1Ly8kE5JQIwl_LWzPMxSBaqrw/view?usp=sharing)
 <br/>
 
 3. **Real-time Object Detection**
