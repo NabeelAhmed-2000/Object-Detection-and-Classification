@@ -40,8 +40,8 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 2. **Non-real-time Object Detection in a sample video**
    - Sample input video
   
-     - To test with your own video, modify the code in the very first line of 'In [10]' of file [source_code_video.ipynb](/source_code_video.ipynb) as shown below:\
-       `cap = cv2.VideoCapture("original_sample_video.mp4")` to `cap = cv2.VideoCapture("your_video_name")`
+     - To test with your own video, modify the code in the very first line of 'In [8]' of file [source_code_video.ipynb](/source_code_video.ipynb) as shown below:\
+       `sample_video = "original_sample_video.mp4"` to `sample_video = "your_video_name"`
 
      \
      [![Watch the video](Extras/input_video_thumbnail.png)](https://drive.google.com/file/d/1WLveG-M_Zh899NEf1BpEa4OQJSRswRKR/view?usp=sharing)
@@ -50,7 +50,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
        
    - Sample output video
 
-     - Due to limited resources of the machine, object detection happens at a slightly lower frame rate in the output video.
+     - Due to limited resources of the machine, object detection happens at a slightly lower frame rate of 16 FPS in the output video.
      - The video runs in full-screen by default. Press `f` to toggle between full-screen and windowed modes. Press `q` to stop object detection and close the video.
      <br/>
      
@@ -60,8 +60,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 
 3. **Real-time Object Detection**
 
-   - For Real-time Object Detection through the webcam or any other imaging device, modify the code in the very first line of 'In [10]' of file 
-     [source_code_video.ipynb](/source_code_video.ipynb) as shown below:
+   - For Real-time Object Detection through the webcam or any other imaging device, tap '1' in the user prompt, and enter a resolution to begin the Object               Detection. Enter only the supported standard resolutions to avoid breaking any functionality of the code. If resolution is not known, enter 640x480 as the          resolution as it is OpenCV's default resolution for video capture.  
      
      `cap = cv2.VideoCapture("original_sample_video.mp4")` to `cap = cv2.VideoCapture(0)`
 
