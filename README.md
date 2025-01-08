@@ -29,7 +29,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 
      - To test with your own image, modify the code in 'In [7]' of file [source_code_image.ipynb](/source_code_image.ipynb) as shown below:\
        `img = cv2.imread('original_sample_image.jpg')` to `img = cv2.imread('your_image_name')`
-       https://github.com/NabeelAhmed-2000/Object-Detection-and-Classification/blob/8d9a12df83eafc157ffe6439795b9ad4f438e174/source_code_image.ipynb#L88
+       
    ![](Extras/sample_input_image.png)
 
    - Sample output image
@@ -71,4 +71,6 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 [original_sample_image.jpg](Extras/original_sample_image.jpg) and [original_sample_video.mp4](Extras/original_sample_video.mp4) used in this project are copyright-free. Image is downloaded from [pixabay.com](https://pixabay.com/photos/boy-bicycle-stunt-child-riding-9201158/) and video from [pixabay.com](https://pixabay.com/videos/new-york-nyc-city-urban-manhattan-26115/). 
 
 
-     
+
+[Link Text](Repository_URL/blob/main/source_code_image.ipynb#L88)
+
