@@ -27,7 +27,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 1. **Non-real-time Object Detection in a sample image**
    - Sample input image
 
-     - To test with your own image, modify the code in 'In [7]' of file [source_code_image.ipynb](/source_code_image.ipynb) as shown below:\
+     - To test with your own image, modify the code in cell 'In [7]' of file [source_code_image.ipynb](/source_code_image.ipynb) as shown below:\
        `img = cv2.imread('original_sample_image.jpg')` to `img = cv2.imread('your_image_name')`
        
    ![](Extras/sample_input_image.png)
@@ -40,7 +40,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 2. **Non-real-time Object Detection in a sample video**
    - Sample input video
   
-     - To test with your own video, modify the code in the very first line of 'In [8]' of file [source_code_video.ipynb](/source_code_video.ipynb) as shown below:\
+     - To test with your own video, modify the code in the very first line of cell 'In [8]' of file [source_code_video.ipynb](/source_code_video.ipynb) as shown below:\
        `sample_video = "original_sample_video.mp4"` to `sample_video = "your_video_name"`
 
      \
@@ -64,7 +64,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
      
      `cap = cv2.VideoCapture("original_sample_video.mp4")` to `cap = cv2.VideoCapture(0)`
 
-     if `cap = cv2.VideoCapture(0)` does not work, or if there are multiple cameras, try changing the index `(0)` to 1, 2, etc. based on the camera to be used.
+     if `cap = cv2.VideoCapture(0)` in line of cell 'In [8]' of file [source_code_video.ipynb](/source_code_video.ipynb) does not work, or if there are multiple cameras, try changing the index `(0)` to 1, 2, etc. based on the camera to be used.
 <br/>
 
 ## Credits
@@ -72,5 +72,4 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
 
 
 
-[Link Text](https://github.com/NabeelAhmed-2000/Object-Detection-and-Classification/blob/main/source_code_image.ipynb#L88)
 
