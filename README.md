@@ -64,7 +64,7 @@ The coding was done fully in python using [Python v3.12.7](https://www.python.or
      
      `cap = cv2.VideoCapture("original_sample_video.mp4")` to `cap = cv2.VideoCapture(0)`
 
-     if `cap = cv2.VideoCapture(0)` in line of cell 'In [8]' of file [source_code_video.ipynb](/source_code_video.ipynb) does not work, or if there are multiple cameras, try changing the index `(0)` to 1, 2, etc. based on the camera to be used.
+     if `cap = cv2.VideoCapture(0)` in first few lines of cell 'In [8]' of file [source_code_video.ipynb](/source_code_video.ipynb) does not work, or if there are multiple cameras, try changing the index `(0)` to 1, 2, etc. based on the camera to be used.
 <br/>
 
 ## Credits
